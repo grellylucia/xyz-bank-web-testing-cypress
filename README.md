@@ -11,6 +11,4 @@ Test Case :
 ```bash
 git clone https://github.com/grellylucia/xyz-bank-web-testing-cypress.git   
 ```
-2. Copy file `.env.example` and change the file name to `.env`
-3. Run command `yarn` in terminal (inside the project)
-4. To run test `yarn run mocha:run`
+2. To run test `yarn run cypress open`
