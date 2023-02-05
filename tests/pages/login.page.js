@@ -1,0 +1,5 @@
+export const customerLoginButton = '.borderM > :nth-child(1) > .btn'
+export const managerLoginButton = ':nth-child(3) > .btn'
+export const homeButton = '.home'
+export const selectCustomer = '#userSelect'
+export const loginButton = 'form.ng-valid > .btn'

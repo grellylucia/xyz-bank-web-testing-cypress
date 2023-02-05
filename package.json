@@ -1,0 +1,22 @@
+{
+  "name": "xyz-bank-web-testing-cypress",
+  "version": "1.0.0",
+  "description": "Web testing for XYZ Bank using Cypress",
+  "main": "index.js",
+  "repository": "https://github.com/grellylucia/xyz-bank-web-testing-cypress.git",
+  "author": "Grelly Londo <grelly.londo@ptgue.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@faker-js/faker": "^7.6.0",
+    "babel-plugin-module-resolver": "4.1.0",
+    "prettier": "^2.8.3"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
